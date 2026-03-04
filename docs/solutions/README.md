@@ -17,6 +17,7 @@ This documentation is bilingual (English & Russian) / Эта документа�
 | 3 | [Pad Sequences](pad-sequences.md) | Medium | NLP, Data Processing | ✅ |
 | 4 | [Matrix Transpose](matrix-transpose.md) | Easy | Linear Algebra | ✅ |
 | 5 | [Implement Positional Encoding](positional-encoding.md) | Medium | Linear Algebra, Transformers | ✅ |
+| 6 | [Gradient Descent for 1D Quadratic](gradient-descent-quadratic.md) | Easy | Optimization | ✅ |
 
 ---
 
