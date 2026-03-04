@@ -2,19 +2,11 @@
 
 **Problem #1** | [TensorTonic](https://www.tensortonic.com/problems/sigmoid-numpy)
 
----
-
-## 🌐 Language / Язык
-
-- **[🇬🇧 English](#english)**
-- **[🇷🇺 Русский](#русский)**
+> 🇷🇺 [Русская версия ниже](#russian-summary)
 
 ---
 
-<a name="english"></a>
-## 🇬🇧 English Version
-
-### 📋 Requirements
+## 📋 Requirements
 
 Implement the sigmoid function:
 
@@ -29,7 +21,9 @@ Implement the sigmoid function:
 - Returns `np.ndarray` of floats
 - Time limit: 200 ms, Memory: 64 MB
 
-### 🧪 Test Examples
+---
+
+## 🧪 Test Examples
 
 | Input | Output |
 |-------|--------|
@@ -37,7 +31,9 @@ Implement the sigmoid function:
 | `x = [0, 2, -2]` | `[0.5, 0.88079708, 0.11920292]` |
 | `x = [[-1, 0], [1, 2]]` | `[[0.26894142, 0.5], [0.73105858, 0.88079708]]` |
 
-### 🔧 Solution
+---
+
+## 🔧 Solution
 
 ```python
 import numpy as np
@@ -59,49 +55,17 @@ def sigmoid(x) -> np.ndarray:
     return np.asarray(1 / (1 + np.exp(-x)))
 ```
 
-### ✅ Tests
+### Key Implementation Details
 
-All 7 tests pass.
-
----
-
-<a name="русский"></a>
-## 🇷🇺 Русская версия
-
-### 📋 Требования
-
-Реализовать сигмоидную функцию:
-
-```
-σ(x) = 1 / (1 + e^(-x))
-```
-
-**Ограничения:**
-- Только векторизованная реализация (без Python циклов)
-- Только NumPy
-- Работает со скалярами, списками и массивами
-- Возвращает `np.ndarray` float
-- Time limit: 200 ms, Memory: 64 MB
-
-### 🧪 Тестовые примеры
-
-| Вход | Выход |
-|------|-------|
-| `x = 0` | `0.5` |
-| `x = [0, 2, -2]` | `[0.5, 0.88079708, 0.11920292]` |
-| `x = [[-1, 0], [1, 2]]` | `[[0.26894142, 0.5], [0.73105858, 0.88079708]]` |
-
-### 🔧 Решение
-
-Код идентичен английской версии выше.
-
-### ✅ Тесты
-
-Все 7 тестов проходят.
+| Step | Code | Purpose |
+|------|------|---------|
+| 1. Convert input | `x = np.asarray(x, dtype=float)` | Handles scalars, lists, arrays |
+| 2. Apply formula | `1 / (1 + np.exp(-x))` | Vectorized sigmoid computation |
+| 3. Ensure ndarray | `np.asarray(...)` | Guarantees return type for scalars |
 
 ---
 
-## 📊 Sigmoid Plot / График сигмоиды
+## 📊 Sigmoid Plot
 
 ```
      1.0 |                    ╱────
@@ -116,29 +80,54 @@ All 7 tests pass.
                   x
 ```
 
-**Properties / Свойства:**
-- σ(0) = 0.5 (center / центр)
+**Properties:**
+- σ(0) = 0.5 (center)
 - σ(x) → 1 as x → +∞
 - σ(x) → 0 as x → -∞
-- Range / Диапазон: (0, 1)
-- Monotonically increasing / Монотонно возрастает
+- Range: (0, 1)
+- Monotonically increasing
 
 ---
 
-## 🔑 Key Points / Ключевые моменты
+## ✅ Tests
 
-| Aspect / Аспект | Solution / Решение |
-|-----------------|-------------------|
-| **Input conversion** | `np.asarray(x, dtype=float)` |
-| **Formula** | `1 / (1 + np.exp(-x))` |
-| **Vectorization** | All NumPy operations are vectorized |
-| **Output type** | `np.asarray()` guarantees ndarray |
-| **Complexity** | O(n) — single pass |
+All 7 tests pass:
+
+| Test | Checks |
+|------|--------|
+| `test_scalar_zero` | Scalar input → array, value 0.5 |
+| `test_list_positive_negative` | List input, exact values |
+| `test_2d_array` | 2D structure preserved |
+| `test_numpy_array` | NumPy array input |
+| `test_large_positive` | σ(10) ≈ 1.0 |
+| `test_large_negative` | σ(-10) ≈ 0.0 |
+| `test_vectorized_no_loops` | Works on 1000 elements |
 
 ---
 
-## 📖 Resources / Ресурсы
+<a name="russian-summary"></a>
+## 🇷🇺 Краткое резюме (Russian Summary)
+
+### Требования
+Реализовать функцию сигмоиды **векторизованно** (без циклов), только NumPy. Работает со скалярами, списками, массивами. Возвращает `np.ndarray` float.
+
+### Решение
+```python
+x = np.asarray(x, dtype=float)      # Конвертация входа
+return 1 / (1 + np.exp(-x))         # Формула
+```
+
+### Ключевые моменты
+- `np.asarray()` — универсальная конвертация (скаляр → 0-d массив)
+- `np.exp(-x)` — векторизованная экспонента
+- Финальный `np.asarray()` гарантирует возврат ndarray даже для скаляра
+
+### Тесты
+7 тестов проверяют скаляры, списки, 2D массивы и граничные значения (±10).
+
+---
+
+## 📖 Resources
 
 - [NumPy: np.asarray](https://numpy.org/doc/stable/reference/generated/numpy.asarray.html)
-- [NumPy: Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 - [Sigmoid Function — Wikipedia](https://en.wikipedia.org/wiki/Sigmoid_function)
