@@ -14,7 +14,7 @@ This documentation is bilingual (English & Russian) / Эта документа�
 |---|------------------|------------------------|---------------|-------------------|
 | 1 | [Implement Sigmoid in NumPy](sigmoid-numpy.md) | Easy | Activation Functions | ✅ |
 | 2 | [Logistic Regression Training Loop](logistic-regression-training.md) | Medium | Optimization, Loss Functions | ✅ |
-| 3 | Pad Sequences | Medium | NLP, Data Processing | ⏳ |
+| 3 | [Pad Sequences](pad-sequences.md) | Medium | NLP, Data Processing | ✅ |
 
 ---
 
