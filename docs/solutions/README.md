@@ -4,11 +4,11 @@
 
 ## 📚 Решения задач
 
-| № | Задача | Файл | Статус |
-|---|--------|------|--------|
-| 1 | [Implement Sigmoid in NumPy](solutions/sigmoid-numpy.md) | `sigmoid-numpy.md` | ✅ |
-| 2 | Logistic Regression Training Loop | _ожидает_ | ⏳ |
-| 3 | Pad Sequences | _ожидает_ | ⏳ |
+| № | Задача | Сложность | Темы | Файл |
+|---|--------|-----------|------|------|
+| 1 | [Implement Sigmoid in NumPy](sigmoid-numpy.md) | Easy | Activation Functions | ✅ |
+| 2 | [Logistic Regression Training Loop](logistic-regression-training.md) | Medium | Optimization, Loss Functions | ✅ |
+| 3 | Pad Sequences | Medium | NLP, Data Processing | ⏳ |
 
 ## 🔗 Ресурсы
 
