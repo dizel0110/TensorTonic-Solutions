@@ -1,29 +1,37 @@
-# TensorTonic Solutions - Документация
+# TensorTonic Solutions - Documentation
 
-Подробные решения задач с объяснениями и тестами.
+Detailed solutions with explanations and tests.
 
-## 📚 Решения задач
+## 🌐 Language / Язык
 
-| № | Задача | Сложность | Темы | Файл |
-|---|--------|-----------|------|------|
+This documentation is bilingual (English & Russian) / Эта документация двуязычная.
+
+---
+
+## 📚 Solutions / Решения
+
+| # | Problem / Задача | Difficulty / Сложность | Topics / Темы | Solution / Решение |
+|---|------------------|------------------------|---------------|-------------------|
 | 1 | [Implement Sigmoid in NumPy](sigmoid-numpy.md) | Easy | Activation Functions | ✅ |
 | 2 | [Logistic Regression Training Loop](logistic-regression-training.md) | Medium | Optimization, Loss Functions | ✅ |
 | 3 | Pad Sequences | Medium | NLP, Data Processing | ⏳ |
 
-## 🔗 Ресурсы
+---
+
+## 🔗 Resources / Ресурсы
 
 - [TensorTonic Platform](https://www.tensortonic.com)
-- [GitHub с решениями](https://github.com/dizel0110/TensorTonic-Solutions)
-
-## 📝 О проекте
-
-Эта коллекция содержит подробные объяснения решений задач с TensorTonic. Каждое решение включает:
-
-- 📋 Требования и ограничения задачи
-- 🧪 Тестовые примеры с разбором
-- 💡 Объяснение реализации
-- ✅ Проверка тестов
+- [GitHub Repository](https://github.com/dizel0110/TensorTonic-Solutions)
 
 ---
 
-*Документация ведётся параллельно с решениями в `sandbox/`*
+## 📝 About / О проекте
+
+This collection contains detailed explanations of TensorTonic problem solutions. Each solution includes:
+
+Эта коллекция содержит подробные объяснения решений задач с TensorTonic. Каждое решение включает:
+
+- 📋 Requirements and constraints / Требования и ограничения
+- 🧪 Test examples with analysis / Тестовые примеры с разбором
+- 💡 Implementation explanation / Объяснение реализации
+- ✅ Test verification / Проверка тестов
