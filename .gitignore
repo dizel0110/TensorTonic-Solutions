@@ -1,0 +1,31 @@
+# Sandbox directory - local solutions only
+sandbox/
+
+# Synced solutions from GitHub (pull only, no push)
+synced_solutions/
+
+# Documentation - PUSH to GitHub!
+# (docs/ is NOT ignored - tracked in git)
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
