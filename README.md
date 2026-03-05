@@ -32,6 +32,8 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 ├── <task>/                  # 💻 Solution code from TensorTonic (tracked in git)
 │   ├── adam-optimizer/
 │   │   └── adam-optimizer.py
+│   ├── dropout-training/
+│   │   └── dropout-training.py
 │   ├── sigmoid-numpy/
 │   │   └── sigmoid-numpy.py
 │   ├── logistic-regression-training/
