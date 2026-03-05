@@ -39,20 +39,31 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 │       ├── gradient-descent-quadratic.md
 │       └── adam-optimizer-step.md
 │
-├── adam-optimizer/          # ✅ Adam Optimizer Step solution
-│   ├── adam-optimizer.py
-│   └── test_adam_optimizer.py
-│
 ├── synced_solutions/        # 🔄 Auto-synced from TensorTonic platform
+│   ├── adam-optimizer/
+│   │   └── adam-optimizer.py
+│   ├── gradient-descent-quadratic/
+│   │   └── gradient-descent-quadratic.py
+│   ├── logistic-regression-training/
+│   │   └── logistic-regression-training.py
+│   ├── matrix-transpose/
+│   │   └── matrix-transpose.py
+│   ├── pad-sequences/
+│   │   └── pad-sequences.py
+│   ├── positional-encoding/
+│   │   └── positional-encoding.py
 │   └── sigmoid-numpy/
 │       └── sigmoid-numpy.py
 │
-└── sandbox/                 # 🧪 Local development (not tracked)
+└── sandbox/                 # 🧪 Local development (NOT tracked in git)
     ├── TASKS.md
     ├── SOLUTIONS_JOURNAL.md
-    └── sigmoid-numpy/
-        ├── sigmoid-numpy.py
-        └── test_sigmoid_numpy.py
+    ├── sigmoid-numpy/
+    │   ├── sigmoid-numpy.py
+    │   └── test_sigmoid_numpy.py
+    └── adam-optimizer/
+        ├── adam-optimizer.py
+        └── test_adam_optimizer.py
 ```
 
 ## 🚀 Quick Start
