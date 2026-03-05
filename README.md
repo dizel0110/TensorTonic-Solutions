@@ -23,6 +23,7 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 | 5 | [Implement Positional Encoding](docs/solutions/positional-encoding.md) | Medium | Linear Algebra, Transformers |
 | 6 | [Gradient Descent for 1D Quadratic](docs/solutions/gradient-descent-quadratic.md) | Easy | Optimization |
 | 7 | [Implement Adam Optimizer Step](docs/solutions/adam-optimizer-step.md) | Easy | Optimization |
+| 8 | [Implement Dropout (Training Mode)](docs/solutions/dropout-training.md) | Medium | Neural Networks |
 
 ## 📁 Repository Structure
 

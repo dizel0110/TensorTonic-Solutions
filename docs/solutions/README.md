@@ -19,6 +19,7 @@ This documentation is bilingual (English & Russian) / Эта документа�
 | 5 | [Implement Positional Encoding](positional-encoding.md) | Medium | Linear Algebra, Transformers | ✅ |
 | 6 | [Gradient Descent for 1D Quadratic](gradient-descent-quadratic.md) | Easy | Optimization | ✅ |
 | 7 | [Implement Adam Optimizer Step](adam-optimizer-step.md) | Easy | Optimization | ✅ |
+| 8 | [Implement Dropout (Training Mode)](dropout-training.md) | Medium | Neural Networks | ✅ |
 
 ---
 
