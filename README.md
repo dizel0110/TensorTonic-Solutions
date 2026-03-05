@@ -17,6 +17,12 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 | # | Problem | Difficulty | Topics |
 |---|---------|------------|--------|
 | 1 | [Implement Sigmoid in NumPy](docs/solutions/sigmoid-numpy.md) | Easy | Activation Functions |
+| 2 | [Logistic Regression Training Loop](docs/solutions/logistic-regression-training.md) | Medium | Optimization, Loss Functions |
+| 3 | [Pad Sequences](docs/solutions/pad-sequences.md) | Medium | NLP, Data Processing |
+| 4 | [Matrix Transpose](docs/solutions/matrix-transpose.md) | Easy | Linear Algebra |
+| 5 | [Implement Positional Encoding](docs/solutions/positional-encoding.md) | Medium | Linear Algebra, Transformers |
+| 6 | [Gradient Descent for 1D Quadratic](docs/solutions/gradient-descent-quadratic.md) | Easy | Optimization |
+| 7 | [Implement Adam Optimizer Step](docs/solutions/adam-optimizer-step.md) | Easy | Optimization |
 
 ## 📁 Repository Structure
 
@@ -25,7 +31,17 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 ├── docs/                    # 📖 Detailed solutions (pushed to GitHub)
 │   └── solutions/
 │       ├── README.md
-│       └── sigmoid-numpy.md
+│       ├── sigmoid-numpy.md
+│       ├── logistic-regression-training.md
+│       ├── pad-sequences.md
+│       ├── matrix-transpose.md
+│       ├── positional-encoding.md
+│       ├── gradient-descent-quadratic.md
+│       └── adam-optimizer-step.md
+│
+├── adam-optimizer/          # ✅ Adam Optimizer Step solution
+│   ├── adam-optimizer.py
+│   └── test_adam_optimizer.py
 │
 ├── synced_solutions/        # 🔄 Auto-synced from TensorTonic platform
 │   └── sigmoid-numpy/
