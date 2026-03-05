@@ -29,7 +29,23 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 
 ```
 .
-├── docs/                    # 📖 Detailed solutions (pushed to GitHub)
+├── <task>/                  # 💻 Solution code from TensorTonic (tracked in git)
+│   ├── adam-optimizer/
+│   │   └── adam-optimizer.py
+│   ├── sigmoid-numpy/
+│   │   └── sigmoid-numpy.py
+│   ├── logistic-regression-training/
+│   │   └── logistic-regression-training.py
+│   ├── pad-sequences/
+│   │   └── pad-sequences.py
+│   ├── matrix-transpose/
+│   │   └── matrix-transpose.py
+│   ├── positional-encoding/
+│   │   └── positional-encoding.py
+│   └── gradient-descent-quadratic/
+│       └── gradient-descent-quadratic.py
+│
+├── docs/                    # 📖 Detailed solutions documentation (pushed to GitHub)
 │   └── solutions/
 │       ├── README.md
 │       ├── sigmoid-numpy.md
@@ -38,33 +54,20 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 │       ├── matrix-transpose.md
 │       ├── positional-encoding.md
 │       ├── gradient-descent-quadratic.md
-│       └── adam-optimizer-step.md
+│       ├── adam-optimizer-step.md
+│       └── dropout-training.md
 │
-├── synced_solutions/        # 🔄 Auto-synced from TensorTonic platform
-│   ├── adam-optimizer/
-│   │   └── adam-optimizer.py
-│   ├── gradient-descent-quadratic/
-│   │   └── gradient-descent-quadratic.py
-│   ├── logistic-regression-training/
-│   │   └── logistic-regression-training.py
-│   ├── matrix-transpose/
-│   │   └── matrix-transpose.py
-│   ├── pad-sequences/
-│   │   └── pad-sequences.py
-│   ├── positional-encoding/
-│   │   └── positional-encoding.py
-│   └── sigmoid-numpy/
-│       └── sigmoid-numpy.py
+├── synced_solutions/        # 🔄 Auto-synced from TensorTonic platform (git submodule)
+│   ├── <task>/              # Code synchronized from platform
+│   └── docs/solutions/      # Documentation mirror
 │
 └── sandbox/                 # 🧪 Local development (NOT tracked in git)
     ├── TASKS.md
     ├── SOLUTIONS_JOURNAL.md
-    ├── sigmoid-numpy/
-    │   ├── sigmoid-numpy.py
-    │   └── test_sigmoid_numpy.py
-    └── adam-optimizer/
-        ├── adam-optimizer.py
-        └── test_adam_optimizer.py
+    ├── <task>/
+    │   ├── <task>.py
+    │   └── test_<task>.py
+    └── ...
 ```
 
 ## 🚀 Quick Start
