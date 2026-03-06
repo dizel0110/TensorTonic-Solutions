@@ -20,6 +20,7 @@ This documentation is bilingual (English & Russian) / Эта документа�
 | 6 | [Gradient Descent for 1D Quadratic](gradient-descent-quadratic.md) | Easy | Optimization | ✅ |
 | 7 | [Implement Adam Optimizer Step](adam-optimizer-step.md) | Easy | Optimization | ✅ |
 | 8 | [Implement Dropout (Training Mode)](dropout-training.md) | Medium | Neural Networks | ✅ |
+| 9 | [RMSProp Optimizer (Single Update Step)](rmsprop-optimizer.md) | Easy | Optimization | ✅ |
 
 ---
 

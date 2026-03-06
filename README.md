@@ -24,6 +24,7 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 | 6 | [Gradient Descent for 1D Quadratic](docs/solutions/gradient-descent-quadratic.md) | Easy | Optimization |
 | 7 | [Implement Adam Optimizer Step](docs/solutions/adam-optimizer-step.md) | Easy | Optimization |
 | 8 | [Implement Dropout (Training Mode)](docs/solutions/dropout-training.md) | Medium | Neural Networks |
+| 9 | [RMSProp Optimizer (Single Update Step)](docs/solutions/rmsprop-optimizer.md) | Easy | Optimization |
 
 ## 📁 Repository Structure
 
@@ -34,6 +35,8 @@ Detailed solutions with explanations and tests are available in the [`docs/`](do
 │   │   └── adam-optimizer.py
 │   ├── dropout-training/
 │   │   └── dropout-training.py
+│   ├── rmsprop-optimizer/
+│   │   └── rmsprop-optimizer.py
 │   ├── sigmoid-numpy/
 │   │   └── sigmoid-numpy.py
 │   ├── logistic-regression-training/
